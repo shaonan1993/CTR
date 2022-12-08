@@ -38,6 +38,10 @@ Please find more details of this work in our [paper](TODO).
    * `cd ../`
    * `python utils/move_t5.py`
 6. (Optional) Download our existing checkpoint from [Google Driver](https://drive.google.com/file/d/13NVoh7SKDrLb8JjsDpwN0JmyzvbLM8iB/view?usp=share_link) or [Baidu Driver](https://pan.baidu.com/s/11YAhF8WZPkKSZTex7eKDPw?pwd=2tjf)
+7. (Optional) Download our generated P3 dataset:
+   * Manual Prompt Version: TODO
+   * No Prompt Version(inputs are a direct concatenation of multiple text fields): TODO
+   * Note our generated P3 dataset is slight different from original [P3](https://huggingface.co/datasets/bigscience/P3) dataset. We remove some unused dataset, drop duplicate examples and fix some bugs.
 
 **Tips**: We highly recommend everyone to run our code in the same experimental environment, or the results may unexpected due to the loss of precision derived from bfloat16.
 
