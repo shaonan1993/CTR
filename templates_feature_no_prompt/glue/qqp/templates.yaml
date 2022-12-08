@@ -1,0 +1,82 @@
+dataset: glue
+subset: qqp
+templates:
+  8e711799-a57c-4941-833b-466bedfb80ad: !Template
+    answer_choices: no ||| yes
+    id: 8e711799-a57c-4941-833b-466bedfb80ad
+    jinja: '{{question1}}  {{question2}} ||| {{ answer_choices[label]}}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: quora
+    reference: ''
+  94972071-a726-42a3-a726-13f414b65e67: !Template
+    answer_choices: not duplicates ||| duplicates
+    id: 94972071-a726-42a3-a726-13f414b65e67
+    jinja: '{{question1}}
+
+      {{question2}}
+
+      {{"duplicates"}} or {{"not duplicates"}}?
+
+      |||
+
+      {{ answer_choices[label] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: duplicate or not
+    reference: ''
+  a45ad5cd-a3ba-4ab2-a728-a9ea0f27102b: !Template
+    answer_choices: no ||| yes
+    id: a45ad5cd-a3ba-4ab2-a728-a9ea0f27102b
+    jinja: '"{{question1}} {{question2}}?
+      ||| {{ answer_choices[label] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: same thing
+    reference: ''
+  c0182cd1-c7ac-4abe-829f-4651536af951: !Template
+    answer_choices: no ||| yes
+    id: c0182cd1-c7ac-4abe-829f-4651536af951
+    jinja: '{{question1}} {{question2}}"? ||| {{ answer_choices[label] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: false
+    name: answer
+    reference: ''
+  c0724198-97e7-44a1-89d8-c51e97ce0b04: !Template
+    answer_choices: No ||| Yes
+    id: c0724198-97e7-44a1-89d8-c51e97ce0b04
+    jinja: ' {{question1}}
+
+       {{question2}}
+
+       ||| {{answer_choices[label]}}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: meaning
+    reference: ''
+  fd244bd3-ca3b-4e4f-9722-fd006c50e157: !Template
+    answer_choices: no ||| yes
+    id: fd244bd3-ca3b-4e4f-9722-fd006c50e157
+    jinja: '{{question1}} {{question2}} ||| {{ answer_choices[label] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: duplicate
+    reference: ''

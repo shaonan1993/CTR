@@ -1,0 +1,179 @@
+dataset: qa_zre
+templates:
+  2d6b6ec6-4cba-4a07-a0d1-f6b7cb103281: !Template
+    answer_choices: null
+    id: 2d6b6ec6-4cba-4a07-a0d1-f6b7cb103281
+    jinja: ' {{question}} |||
+
+      {{relation}}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: false
+    name: extract_relation
+    reference: https://www.aclweb.org/anthology/K17-1034.pdf
+  5a970b88-53a0-4148-b45e-7ac410df263f: !Template
+    answer_choices: null
+    id: 5a970b88-53a0-4148-b45e-7ac410df263f
+    jinja: '"{{question.replace("XXX",subject)}}".
+
+     Context: {{context}}
+
+      |||
+
+      {% if answers|length > 0 %}
+
+      {{answers|choice}}
+
+      {% else %}
+
+      unanswerable
+
+      {% endif %}
+    '
+    metadata: !TemplateMetadata
+      choices_in_prompt: null
+      metrics:
+      - Other
+      original_task: true
+    name: based_on_context
+    reference: ''
+  6368de04-070a-4f67-a8bf-fd6d2c07d401: !Template
+    answer_choices: null
+    id: 6368de04-070a-4f67-a8bf-fd6d2c07d401
+    jinja: '
+      {{context}}
+
+      {{question}} |||
+
+      {{subject}}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Other
+      original_task: false
+    name: subject
+    reference: ''
+  8f76743d-6486-4ae1-8bc8-ae644e3c54aa: !Template
+    answer_choices: null
+    id: 8f76743d-6486-4ae1-8bc8-ae644e3c54aa
+    jinja: ' {{subject}}
+
+      {{question|replace("XXX",subject)}} |||
+
+      {{relation}}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+        - Accuracy
+      original_task: false
+    name: relation2
+    reference: ''
+  b2195890-a3c5-4e33-be4a-5e53af75e6dd: !Template
+    answer_choices: null
+    id: b2195890-a3c5-4e33-be4a-5e53af75e6dd
+    jinja: '
+
+      Context: {{context}}
+
+      Question: {{question.replace("XXX",subject)}} |||
+
+      {% if answers|length > 0 %}
+
+      {{answers|choice}}
+
+      {% else %}
+
+      unanswerable
+
+      {% endif %} '
+
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Other
+      original_task: true
+    name: qa_including_unanswerable
+    reference: ''
+  b2195890-a3c5-4e33-be4a-5e53af75e7dd: !Template
+    answer_choices: null
+    id: b2195890-a3c5-4e33-be4a-5e53af75e7dd
+    jinja: '
+      Question: {{question.replace("XXX",subject)}}
+
+      Context: {{context}}
+
+      |||
+
+      {% if answers|length > 0 %}
+
+      {{answers|choice}}
+
+      {% else %}
+
+      unanswerable
+
+      {% endif %} '
+
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Other
+      original_task: true
+    name: using_a_passage
+    reference: ''
+  b2195890-a3c5-4e33-be4a-5e53af75e8dd: !Template
+    answer_choices: null
+    id: b2195890-a3c5-4e33-be4a-5e53af75e8dd
+    jinja: '
+      Question: {{question.replace("XXX",subject)}}
+
+      Context: {{context}}
+
+      |||
+
+      {% if answers|length > 0 %}
+
+      {{answers|choice}}
+
+      {% else %}
+
+      unanswerable
+
+      {% endif %} '
+
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Other
+      original_task: true
+    name: copy_the_span
+    reference: ''
+  b2195890-a3c5-4e33-be4a-5e53af75e9dd: !Template
+    answer_choices: null
+    id: b2195890-a3c5-4e33-be4a-5e53af75e9dd
+    jinja: '
+      Question: {{question.replace("XXX",subject)}}
+
+      Context: {{context}}
+
+      |||
+
+      {% if answers|length > 0 %}
+
+      {{answers|choice}}
+
+      {% else %}
+
+      unanswerable
+
+      {% endif %} '
+
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Other
+      original_task: true
+    name: may_contain
+    reference: ''

@@ -1,0 +1,121 @@
+dataset: tmu_gfm_dataset
+templates:
+  2b6a9c53-7cbc-4574-b5bd-448cf7960693: !Template
+    answer_choices: null
+    id: 2b6a9c53-7cbc-4574-b5bd-448cf7960693
+    jinja: '{{source}}
+
+       {{output}}
+
+      |||
+
+      {{ (((10*ave_f) | round )/10) }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Other
+      original_task: true
+    name: fluency
+    reference: The metric is a regression task metric.
+  2b712291-0629-4499-86cc-566ee7376271: !Template
+    answer_choices: null
+    id: 2b712291-0629-4499-86cc-566ee7376271
+    jinja: ' {{source}}
+
+ {{output}}
+
+      |||
+
+      {{ (((10*ave_g) | round )/10) }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Other
+      original_task: true
+    name: grammar
+    reference: The metric is a regression task metric.
+  30a17c4d-2bee-450c-b921-9b748ae87c93: !Template
+    answer_choices: null
+    id: 30a17c4d-2bee-450c-b921-9b748ae87c93
+    jinja: ' {{source}}
+
+      |||
+
+      {{output}}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - BLEU
+      - ROUGE
+      original_task: false
+    name: correct-sentence
+    reference: ''
+  9854074f-422e-47e4-bb49-e472dff76311: !Template
+    answer_choices: null
+    id: 9854074f-422e-47e4-bb49-e472dff76311
+    jinja: ' {{source}}
+ {{output}}
+
+      |||
+
+      {{ (((10*ave_m) | round )/10) }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Other
+      original_task: true
+    name: meaning
+    reference: The metric is a regression task metric.
+  c8347303-bfcd-4fe5-b085-dee46045850c: !Template
+    answer_choices: null
+    id: c8347303-bfcd-4fe5-b085-dee46045850c
+    jinja: ' {{source}}
+
+ {{output}}
+
+
+      |||
+
+      {{ (((10*ave_g) | round )/10) }}, {{ (((10*ave_f) | round )/10) }}, and {{ (((10*ave_m)
+      | round )/10) }}.'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Other
+      original_task: true
+    name: grammar-fluency-meaning
+    reference: The metric is a regression task metric.
+  ebb2956b-25eb-4a66-ba23-569ccf9b8675: !Template
+    answer_choices: Sentence A ||| Sentence B
+    id: ebb2956b-25eb-4a66-ba23-569ccf9b8675
+    jinja: '
+      {% if range(0,2) | choice %}
+
+       {{source}}
+
+
+       {{output}}
+
+      |||
+
+      Sentence B
+
+      {% else %}
+
+      Sentence A: {{output}}
+
+
+      Sentence B: {{source}}
+
+      |||
+
+      Sentence A
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: false
+    name: choose-better
+    reference: ''

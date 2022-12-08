@@ -1,0 +1,77 @@
+dataset: kelm
+templates:
+  3381175a-b93e-4d1e-a7f2-428c5d2c7c2b: !Template
+    answer_choices: null
+    id: 3381175a-b93e-4d1e-a7f2-428c5d2c7c2b
+    jinja: "\n{{ triple\
+      \ }} \n|||\n{{ sentence }}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Other
+      original_task: true
+    name: kb_to_sentence_uses_all_facts
+    reference: Convert a KB triple of the form (subject, relation, object) to a natural
+      language sentence
+  4d674e43-c569-4f0c-9b5c-436f430da92a: !Template
+    answer_choices: null
+    id: 4d674e43-c569-4f0c-9b5c-436f430da92a
+    jinja: "Sentence: {{sentence}} \n|||\n{{triple}}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - ROUGE
+      - BLEU
+      original_task: false
+    name: sentence_to_kb
+    reference: Given a sentence, generate a string of the form (subject, relation,
+      object)
+  510324d1-1c45-4747-8cd1-ea817355f895: !Template
+    answer_choices: null
+    id: 510324d1-1c45-4747-8cd1-ea817355f895
+    jinja: " {{ triple }} \n\n|||\n\n{{ sentence }}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Other
+      original_task: true
+    name: kb_to_sentence_easier_to_understand
+    reference: ''
+  55909592-633d-4cef-97ff-058c86eea28f: !Template
+    answer_choices: null
+    id: 55909592-633d-4cef-97ff-058c86eea28f
+    jinja: '
+      "{{ triple }}" |||
+
+      {{ sentence }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Other
+      original_task: true
+    name: kb_to_sentence_combine
+    reference: Convert a KB triple of the form (subject, relation, object) to a natural
+      language sentence
+  7478edee-5950-4ca2-8878-9c5a98925952: !Template
+    answer_choices: null
+    id: 7478edee-5950-4ca2-8878-9c5a98925952
+    jinja: " {{ triple }} \n|||\n{{ sentence }}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Other
+      original_task: true
+    name: kb_to_sentence_affirmative
+    reference: Convert a KB triple of the form (subject, relation, object) to a natural
+      language sentence
+  d72c07d6-9c16-4520-8891-4bfc6a7a956f: !Template
+    answer_choices: null
+    id: d72c07d6-9c16-4520-8891-4bfc6a7a956f
+    jinja: " {{ triple }} \n\n|||\n\n{{ sentence }}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Other
+      original_task: true
+    name: kb_to_sentence_from_notes
+    reference: ''

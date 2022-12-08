@@ -1,0 +1,63 @@
+dataset: amazon_us_reviews
+subset: Wireless_v1_00
+templates:
+  5feaa0d7-e4e0-46cc-8517-e00bfa7fd00e: !Template
+    answer_choices: null
+    id: 5feaa0d7-e4e0-46cc-8517-e00bfa7fd00e
+    jinja: "{review_body}}|||\n{{review_headline}}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - ROUGE
+      - BLEU
+      original_task: false
+    name: Generate review headline based on review body
+    reference: Generate review headline based on review body
+  9588a967-d698-4a33-9b96-a5254df9d260: !Template
+    answer_choices: null
+    id: 9588a967-d698-4a33-9b96-a5254df9d260
+    jinja: "{{star_rating}} {{product_title}}.        |||        {{review_body}}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - BLEU
+      - ROUGE
+      original_task: false
+    name: Generate review based on rating and category
+    reference: Generate review based on rating and category
+  9a8b953d-2c68-4046-a7b7-8fd5f7469d10: !Template
+    answer_choices: '1 ||| 2 ||| 3 ||| 4 ||| 5 '
+    id: 9a8b953d-2c68-4046-a7b7-8fd5f7469d10
+    jinja: "{{review_headline}} {{ answer_choices | join('\\\
+      n- ') }} |||\n{{answer_choices[star_rating-1]}}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: Given the review headline return a categorical rating
+    reference: 'Given the review headline, return a categorical rating. '
+  e40e4a53-ca5d-4fc8-a7c3-be9adfe0dbec: !Template
+    answer_choices: null
+    id: e40e4a53-ca5d-4fc8-a7c3-be9adfe0dbec
+    jinja: "{{star_rating}}  {{product_title}}        |||   {{review_headline}}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - BLEU
+      - ROUGE
+      original_task: false
+    name: Generate review headline based on rating
+    reference: 'Generate review headline based on rating. '
+  e6a1bbde-715d-4dad-9178-e2bcfaf5c646: !Template
+    answer_choices: 1 ||| 2 ||| 3 ||| 4 ||| 5
+    id: e6a1bbde-715d-4dad-9178-e2bcfaf5c646
+    jinja: "{{review_body}}   {{ answer_choices\
+      \ | join('\\n- ') }} \n|||\n{{answer_choices[star_rating-1]}}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: Given the review body return a categorical rating
+    reference: 'Given the review body, return a categorical rating. '

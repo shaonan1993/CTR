@@ -1,0 +1,101 @@
+dataset: glue
+subset: stsb
+templates:
+  50e3a541-108c-4b26-a423-956562d9b3af: !Template
+    answer_choices: null
+    id: 50e3a541-108c-4b26-a423-956562d9b3af
+    jinja:  {{"0.0"}} to {{"5.0"}}  "{{sentence1}}"
+      and "{{sentence2}}" . ||| {{ (((5*label) | round )/5) }}
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Pearson Correlation
+      - Spearman Correlation
+      original_task: true
+    name: rank
+    reference: ''
+  88dcb716-d19c-45bc-9d3a-cdf8fff5500b: !Template
+    answer_choices: null
+    id: 88dcb716-d19c-45bc-9d3a-cdf8fff5500b
+    jinja: ' {{"0.0"}} to {{"5.0"}}.
+
+      Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+      |||
+
+      {{ (((5*label) | round )/5) }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Pearson Correlation
+      - Spearman Correlation
+      original_task: true
+    name: rate
+    reference: ''
+  a552635f-3a9a-497f-ac04-ef414b24eb16: !Template
+    answer_choices: null
+    id: a552635f-3a9a-497f-ac04-ef414b24eb16
+    jinja: '
+      Sentence 1: {{sentence1}}
+
+      Sentence 2: {{sentence2}}
+
+
+      |||
+
+      {{ (((5*label) | round )/5) }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Pearson Correlation
+      - Spearman Correlation
+      original_task: true
+    name: examples
+    reference: ''
+  ca75788d-4974-440a-a7b7-c42bae814d59: !Template
+    answer_choices: null
+    id: ca75788d-4974-440a-a7b7-c42bae814d59
+    jinja: '
+      - {{sentence1}}
+
+      - {{sentence2}}
+
+
+      {{"0.0 to 5.0"}}
+
+      Answer:
+
+      |||
+
+      {{ (((5*label) | round )/5) }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Pearson Correlation
+      - Spearman Correlation
+      original_task: true
+    name: similarity
+    reference: ''
+  d7315518-cfb9-4840-93ab-c52f1bb5e74d: !Template
+    answer_choices: null
+    id: d7315518-cfb9-4840-93ab-c52f1bb5e74d
+    jinja: ' {{"0.0 to 5.0"}}
+
+      A: {{sentence1}}
+
+      B: {{sentence2}}
+
+
+      |||
+
+      {{ (((5*label) | round )/5) }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Pearson Correlation
+      - Spearman Correlation
+      original_task: true
+    name: score
+    reference: ''

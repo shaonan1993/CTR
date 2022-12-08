@@ -1,0 +1,78 @@
+dataset: dream
+templates:
+  024906f3-2503-451f-a0ce-2c9faf90e6c5: !Template
+    answer_choices: null
+    id: 024906f3-2503-451f-a0ce-2c9faf90e6c5
+    jinja: '
+      {{dialogue[:-1] | join("\n\n")}}
+
+      |||
+
+      {{dialogue[-1]}}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - BLEU
+      - ROUGE
+      original_task: false
+      feature: 'input_segment_num:1->generation:true->next_sentence:true->dialogue:true'
+    name: generate-last-utterance
+    reference: ''
+  5c53fe97-b8b9-4c91-bd75-b3f8e056bd01: !Template
+    answer_choices: null
+    id: 5c53fe97-b8b9-4c91-bd75-b3f8e056bd01
+    jinja: '{{question}}  {{answer}}
+
+      |||
+
+      {{dialogue | join("\n\n")}}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - BLEU
+      - ROUGE
+      original_task: false
+    name: answer-to-dialogue
+    reference: ''
+  70865a35-1db3-45bc-8b08-baf1d9d0be9d: !Template
+    answer_choices: null
+    id: 70865a35-1db3-45bc-8b08-baf1d9d0be9d
+    jinja: '{{dialogue[1:] | join("\n\n")}}
+
+      |||
+
+      {{dialogue[0]}}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - BLEU
+      - ROUGE
+      original_task: false
+    name: generate-first-utterance
+    reference: ''
+  8f962580-1611-4982-b567-05939c5012ff: !Template
+    answer_choices: '{{choice | join("|||")}}'
+    id: 8f962580-1611-4982-b567-05939c5012ff
+    jinja: "{{dialogue | join(\"\\n\\n\")}}\n {{question}}\
+      \ \n\n- {{answer_choices[0]}}\n\n- {{answer_choices[1]}}\n\n- {{answer_choices[2]}}\n\
+      |||\n{{answer}}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: baseline
+    reference: https://dataset.org/dream/
+  d4687975-664d-46ac-b13b-482a35a61ab3: !Template
+    answer_choices: '{{choice | join("|||")}}'
+    id: d4687975-664d-46ac-b13b-482a35a61ab3
+    jinja: "\n{{dialogue\
+      \ | join(\"\\n\\n\")}}\n {{question}} \n\n- {{answer_choices[0]}}\n\
+      \n- {{answer_choices[1]}}\n\n- {{answer_choices[2]}}\n|||\n{{answer}}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: read_the_following_conversation_and_answer_the_question
+    reference: ''

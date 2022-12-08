@@ -1,0 +1,99 @@
+dataset: google_wellformed_query
+templates:
+  7462caa6-9fb3-43ed-a883-85f8940ba23d: !Template
+    answer_choices: null
+    id: 7462caa6-9fb3-43ed-a883-85f8940ba23d
+    jinja: ' "{{content}}"? 
+      Give a value between 0 and 1.
+
+      |||
+
+      {{ rating  | round(0) }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Other
+      original_task: false
+    name: wellformed_rating
+    reference: ''
+  80e4797c-2454-4f27-8032-a8191cd3602d: !Template
+    answer_choices: yes ||| no
+    id: 80e4797c-2454-4f27-8032-a8191cd3602d
+    jinja: '"{{content}}"  Answer {{ answer_choices[0] }} if you agree  and {{ answer_choices[1]
+      }} if you disagree.
+
+      |||
+
+      {% if 0.5 < rating %}{{ answer_choices[0] }}{% else %}{{ answer_choices[1] }}{%
+      endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: is_wellformed_affirmative
+    reference: ''
+  868d696c-428c-4915-b786-719361394143: !Template
+    answer_choices: yes ||| no
+    id: 868d696c-428c-4915-b786-719361394143
+    jinja: ' "{{content}}" 
+
+      |||
+
+      {% if 0.5 < rating %}{{ answer_choices[0] }}{% else %}{{ answer_choices[1] }}{%
+      endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: is_wellformed_finding_for_search
+    reference: ''
+  9816d5bf-c4db-42ed-8ac8-2be45fa8a0bb: !Template
+    answer_choices: yes ||| no
+    id: 9816d5bf-c4db-42ed-8ac8-2be45fa8a0bb
+    jinja: ' "{{content}}" 
+
+      |||
+
+      {% if 0.5 < rating %}{{ answer_choices[0] }}{% else %}{{ answer_choices[1] }}{%
+      endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: is_wellformed_type_for_search
+    reference: ''
+  9f3cc358-3746-405e-b5e9-5fc0dedc0b5d: !Template
+    answer_choices: yes ||| no
+    id: 9f3cc358-3746-405e-b5e9-5fc0dedc0b5d
+    jinja: ' "{{content}}", {{answer_choices[0]}} or {{answer_choices[1]}}?
+
+      |||
+
+      {% if 0.5 < rating %}{{ answer_choices[0] }}{% else %}{{ answer_choices[1] }}{%
+      endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: is_wellformed_know_for_search
+    reference: ''
+  e1c64d17-c623-4a30-b899-5c6a4e44e3d7: !Template
+    answer_choices: yes ||| no
+    id: e1c64d17-c623-4a30-b899-5c6a4e44e3d7
+    jinja: '"{{content}}" {{answer_choices[0]}} or {{answer_choices[1]}}?
+
+      |||
+
+      {% if 0.5 < rating %}{{answer_choices[0]}}{% else %}{{answer_choices[1]}}{%
+      endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: is_wellformed_interrogative
+    reference: Well-formed query
