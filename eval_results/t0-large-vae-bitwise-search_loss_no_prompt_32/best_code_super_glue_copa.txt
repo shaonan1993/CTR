@@ -1,0 +1,122 @@
+{
+    "super_glue_copa_exercise": {
+        "best_code": [
+            54,
+            90,
+            54,
+            111,
+            55,
+            79,
+            25,
+            1,
+            120,
+            10
+        ],
+        "best_loss": 9.849344253540039
+    },
+    "super_glue_copa_i_am_hesitating": {
+        "best_code": [
+            5,
+            90,
+            4,
+            111,
+            74,
+            79,
+            25,
+            103,
+            120,
+            78
+        ],
+        "best_loss": 10.881653785705566
+    },
+    "super_glue_copa_plausible_alternatives": {
+        "best_code": [
+            54,
+            5,
+            0,
+            5,
+            71,
+            79,
+            43,
+            103,
+            120,
+            97
+        ],
+        "best_loss": 11.414780616760254
+    },
+    "super_glue_copa_C1_or_C2?_premise,_so_because\u2026": {
+        "best_code": [
+            23,
+            68,
+            91,
+            95,
+            2,
+            66,
+            43,
+            124,
+            120,
+            19
+        ],
+        "best_loss": 17.40558624267578
+    },
+    "super_glue_copa_best_option": {
+        "best_code": [
+            54,
+            70,
+            69,
+            5,
+            2,
+            72,
+            25,
+            98,
+            120,
+            78
+        ],
+        "best_loss": 15.727967262268066
+    },
+    "super_glue_copa_more_likely": {
+        "best_code": [
+            54,
+            90,
+            76,
+            5,
+            2,
+            79,
+            16,
+            103,
+            120,
+            111
+        ],
+        "best_loss": 10.136025428771973
+    },
+    "super_glue_copa_cause_effect": {
+        "best_code": [
+            23,
+            96,
+            69,
+            95,
+            55,
+            79,
+            43,
+            1,
+            120,
+            10
+        ],
+        "best_loss": 10.648211479187012
+    },
+    "super_glue_copa_choose": {
+        "best_code": [
+            54,
+            67,
+            38,
+            20,
+            5,
+            79,
+            43,
+            103,
+            119,
+            19
+        ],
+        "best_loss": 8.915109634399414
+    }
+}

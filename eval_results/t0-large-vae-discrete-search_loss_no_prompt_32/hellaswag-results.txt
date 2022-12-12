@@ -1,0 +1,13 @@
+number of promtps: 4
+complete_first_then:0.375
+Randomized_prompts_template:0.367000013589859
+Predict_ending_with_hint:0.382999986410141
+if_begins_how_continues:0.45899999141693115
+task_name: hellaswag | num_subset: 4.
+q3: 0.40199998766183853.
+q1: 0.37300000339746475.
+inter-quartile range: 0.02899998426437378.
+median: 0.3789999932050705.
+mean: 0.3959999978542328.
+***************** end ****************
+

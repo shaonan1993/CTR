@@ -1,0 +1,582 @@
+{
+    "super_glue_wsc.fixed_does_the_pronoun_refer_to": {
+        "best_result": 21.099422454833984,
+        "best_code": 96,
+        "best_task_name": "trec_fine_grained_open"
+    },
+    "super_glue_wsc.fixed_by_p_they_mean": {
+        "best_result": 25.499195098876953,
+        "best_code": 79,
+        "best_task_name": "dbpedia_14_given_a_list_of_category_what_does_the_title_belong_to"
+    },
+    "super_glue_wsc.fixed_in_other_words": {
+        "best_result": 22.076210021972656,
+        "best_code": 96,
+        "best_task_name": "trec_fine_grained_open"
+    },
+    "super_glue_wsc.fixed_I_think_they_mean": {
+        "best_result": 21.54224395751953,
+        "best_code": 309,
+        "best_task_name": "cos_e_v1.11_question_option_description_id"
+    },
+    "super_glue_wsc.fixed_does_p_stand_for": {
+        "best_result": 21.840726852416992,
+        "best_code": 68,
+        "best_task_name": "paws_labeled_final_Concatenation_no_label"
+    },
+    "super_glue_wsc.fixed_GPT-3_Style": {
+        "best_result": 24.479589462280273,
+        "best_code": 170,
+        "best_task_name": "wiki_qa_Decide_good_answer"
+    },
+    "super_glue_wsc.fixed_replaced_with": {
+        "best_result": 23.131778717041016,
+        "best_code": 68,
+        "best_task_name": "paws_labeled_final_Concatenation_no_label"
+    },
+    "super_glue_wsc.fixed_p_is_are_r": {
+        "best_result": 23.137842178344727,
+        "best_code": 75,
+        "best_task_name": "paws_labeled_final_PAWS_ANLI_GPT3"
+    },
+    "super_glue_wsc.fixed_the_pronoun_refers_to": {
+        "best_result": 25.603376388549805,
+        "best_code": 108,
+        "best_task_name": "trec_fine_grained_open_context_first"
+    },
+    "super_glue_wsc.fixed_Who_or_what_is_are": {
+        "best_result": 24.856077194213867,
+        "best_code": 8,
+        "best_task_name": "app_reviews_generate_review"
+    },
+    "super_glue_wic_question-context-meaning-with-label": {
+        "best_result": 25.204099655151367,
+        "best_code": 312,
+        "best_task_name": "cos_e_v1.11_description_question_option_id"
+    },
+    "super_glue_wic_question-context-meaning": {
+        "best_result": 24.27849769592285,
+        "best_code": 309,
+        "best_task_name": "cos_e_v1.11_question_option_description_id"
+    },
+    "super_glue_wic_grammar_homework": {
+        "best_result": 24.27849769592285,
+        "best_code": 309,
+        "best_task_name": "cos_e_v1.11_question_option_description_id"
+    },
+    "super_glue_wic_affirmation_true_or_false": {
+        "best_result": 21.21260643005371,
+        "best_code": 270,
+        "best_task_name": "wiqa_what_is_the_final_step_of_the_following_process"
+    },
+    "super_glue_wic_GPT-3-prompt": {
+        "best_result": 23.31824493408203,
+        "best_code": 68,
+        "best_task_name": "paws_labeled_final_Concatenation_no_label"
+    },
+    "super_glue_wic_same_sense": {
+        "best_result": 22.469181060791016,
+        "best_code": 270,
+        "best_task_name": "wiqa_what_is_the_final_step_of_the_following_process"
+    },
+    "super_glue_wic_question-context": {
+        "best_result": 25.451065063476562,
+        "best_code": 59,
+        "best_task_name": "amazon_polarity_Is_this_review_negative"
+    },
+    "super_glue_wic_GPT-3-prompt-with-label": {
+        "best_result": 21.990676879882812,
+        "best_code": 173,
+        "best_task_name": "common_gen_choice_in_concept_centric_sentence_generation"
+    },
+    "super_glue_wic_polysemous": {
+        "best_result": 30.8963680267334,
+        "best_code": 0,
+        "best_task_name": "ag_news_classify_with_choices_question_first"
+    },
+    "super_glue_wic_similar-sense": {
+        "best_result": 39.25340270996094,
+        "best_code": 304,
+        "best_task_name": "cos_e_v1.11_question_description_option_id"
+    },
+    "super_glue_copa_exercise": {
+        "best_result": 13.941319465637207,
+        "best_code": 239,
+        "best_task_name": "sciq_Multiple_Choice"
+    },
+    "super_glue_copa_\u2026What_could_happen_next,_C1_or_C2?": {
+        "best_result": 45.101173400878906,
+        "best_code": 44,
+        "best_task_name": "glue_mrpc_equivalent"
+    },
+    "super_glue_copa_i_am_hesitating": {
+        "best_result": 14.787925720214844,
+        "best_code": 239,
+        "best_task_name": "sciq_Multiple_Choice"
+    },
+    "super_glue_copa_plausible_alternatives": {
+        "best_result": 20.539602279663086,
+        "best_code": 44,
+        "best_task_name": "glue_mrpc_equivalent"
+    },
+    "super_glue_copa_C1_or_C2?_premise,_so_because\u2026": {
+        "best_result": 47.61830139160156,
+        "best_code": 44,
+        "best_task_name": "glue_mrpc_equivalent"
+    },
+    "super_glue_copa_\u2026As_a_result,_C1_or_C2?": {
+        "best_result": 33.995201110839844,
+        "best_code": 265,
+        "best_task_name": "cosmos_qa_no_prompt_text"
+    },
+    "super_glue_copa_best_option": {
+        "best_result": 33.06249237060547,
+        "best_code": 81,
+        "best_task_name": "dream_baseline"
+    },
+    "super_glue_copa_\u2026which_may_be_caused_by": {
+        "best_result": 39.39432907104492,
+        "best_code": 44,
+        "best_task_name": "glue_mrpc_equivalent"
+    },
+    "super_glue_copa_more_likely": {
+        "best_result": 13.970816612243652,
+        "best_code": 239,
+        "best_task_name": "sciq_Multiple_Choice"
+    },
+    "super_glue_copa_cause_effect": {
+        "best_result": 17.65885353088379,
+        "best_code": 250,
+        "best_task_name": "qasc_qa_with_separated_facts_1"
+    },
+    "super_glue_copa_\u2026why?_C1_or_C2": {
+        "best_result": 44.75321578979492,
+        "best_code": 44,
+        "best_task_name": "glue_mrpc_equivalent"
+    },
+    "super_glue_copa_choose": {
+        "best_result": 14.24062442779541,
+        "best_code": 44,
+        "best_task_name": "glue_mrpc_equivalent"
+    },
+    "story_cloze_2016_Answer_Given_options": {
+        "best_result": 0.1753597855567932,
+        "best_code": 81,
+        "best_task_name": "dream_baseline"
+    },
+    "story_cloze_2016_Choose_Story_Ending": {
+        "best_result": 0.1753597855567932,
+        "best_code": 81,
+        "best_task_name": "dream_baseline"
+    },
+    "story_cloze_2016_Movie_What_Happens_Next": {
+        "best_result": 0.1753597855567932,
+        "best_code": 81,
+        "best_task_name": "dream_baseline"
+    },
+    "story_cloze_2016_Story_Continuation_and_Options": {
+        "best_result": 0.1753597855567932,
+        "best_code": 81,
+        "best_task_name": "dream_baseline"
+    },
+    "story_cloze_2016_Novel_Correct_Ending": {
+        "best_result": 0.1753597855567932,
+        "best_code": 81,
+        "best_task_name": "dream_baseline"
+    },
+    "super_glue_cb_can_we_infer": {
+        "best_result": 27.70361328125,
+        "best_code": 6,
+        "best_task_name": "ag_news_recommend"
+    },
+    "super_glue_cb_based_on_the_previous_passage": {
+        "best_result": 25.864383697509766,
+        "best_code": 2,
+        "best_task_name": "ag_news_classify_with_choices"
+    },
+    "super_glue_cb_claim_true_false_inconclusive": {
+        "best_result": 28.775691986083984,
+        "best_code": 79,
+        "best_task_name": "dbpedia_14_given_a_list_of_category_what_does_the_title_belong_to"
+    },
+    "super_glue_cb_does_it_follow_that": {
+        "best_result": 32.73687744140625,
+        "best_code": 0,
+        "best_task_name": "ag_news_classify_with_choices_question_first"
+    },
+    "super_glue_cb_justified_in_saying": {
+        "best_result": 27.70361328125,
+        "best_code": 6,
+        "best_task_name": "ag_news_recommend"
+    },
+    "super_glue_cb_always_sometimes_never": {
+        "best_result": 137.24745178222656,
+        "best_code": 6,
+        "best_task_name": "ag_news_recommend"
+    },
+    "super_glue_cb_GPT-3_style": {
+        "best_result": 23.628997802734375,
+        "best_code": 96,
+        "best_task_name": "trec_fine_grained_open"
+    },
+    "super_glue_cb_consider_always_sometimes_never": {
+        "best_result": 83.33232879638672,
+        "best_code": 6,
+        "best_task_name": "ag_news_recommend"
+    },
+    "super_glue_cb_guaranteed_true": {
+        "best_result": 27.70361328125,
+        "best_code": 6,
+        "best_task_name": "ag_news_recommend"
+    },
+    "super_glue_cb_must_be_true": {
+        "best_result": 27.70361328125,
+        "best_code": 6,
+        "best_task_name": "ag_news_recommend"
+    },
+    "super_glue_cb_guaranteed_possible_impossible": {
+        "best_result": 153.98487854003906,
+        "best_code": 6,
+        "best_task_name": "ag_news_recommend"
+    },
+    "super_glue_cb_does_this_imply": {
+        "best_result": 27.70361328125,
+        "best_code": 6,
+        "best_task_name": "ag_news_recommend"
+    },
+    "super_glue_cb_MNLI_crowdsource": {
+        "best_result": 177.96524047851562,
+        "best_code": 6,
+        "best_task_name": "ag_news_recommend"
+    },
+    "super_glue_cb_should_assume": {
+        "best_result": 27.543455123901367,
+        "best_code": 6,
+        "best_task_name": "ag_news_recommend"
+    },
+    "super_glue_cb_take_the_following_as_truth": {
+        "best_result": 28.117067337036133,
+        "best_code": 6,
+        "best_task_name": "ag_news_recommend"
+    },
+    "super_glue_rte_MNLI_crowdsource": {
+        "best_result": 18.103609085083008,
+        "best_code": 309,
+        "best_task_name": "cos_e_v1.11_question_option_description_id"
+    },
+    "super_glue_rte_guaranteed_true": {
+        "best_result": 16.97746467590332,
+        "best_code": 313,
+        "best_task_name": "commonsense_qa_question_to_answer_index"
+    },
+    "super_glue_rte_can_we_infer": {
+        "best_result": 16.97746467590332,
+        "best_code": 313,
+        "best_task_name": "commonsense_qa_question_to_answer_index"
+    },
+    "super_glue_rte_GPT-3_style": {
+        "best_result": 15.7936372756958,
+        "best_code": 99,
+        "best_task_name": "trec_fine_grained_ENTY"
+    },
+    "super_glue_rte_does_this_imply": {
+        "best_result": 16.97746467590332,
+        "best_code": 313,
+        "best_task_name": "commonsense_qa_question_to_answer_index"
+    },
+    "super_glue_rte_should_assume": {
+        "best_result": 16.948862075805664,
+        "best_code": 313,
+        "best_task_name": "commonsense_qa_question_to_answer_index"
+    },
+    "super_glue_rte_does_it_follow_that": {
+        "best_result": 19.335824966430664,
+        "best_code": 79,
+        "best_task_name": "dbpedia_14_given_a_list_of_category_what_does_the_title_belong_to"
+    },
+    "super_glue_rte_based_on_the_previous_passage": {
+        "best_result": 16.97746467590332,
+        "best_code": 313,
+        "best_task_name": "commonsense_qa_question_to_answer_index"
+    },
+    "super_glue_rte_justified_in_saying": {
+        "best_result": 16.97746467590332,
+        "best_code": 313,
+        "best_task_name": "commonsense_qa_question_to_answer_index"
+    },
+    "super_glue_rte_must_be_true": {
+        "best_result": 16.97746467590332,
+        "best_code": 313,
+        "best_task_name": "commonsense_qa_question_to_answer_index"
+    },
+    "hellaswag_complete_first_then": {
+        "best_result": 278.4337463378906,
+        "best_code": 258,
+        "best_task_name": "cosmos_qa_context_question_description_answer_text"
+    },
+    "hellaswag_Randomized_prompts_template": {
+        "best_result": 291.0567626953125,
+        "best_code": 265,
+        "best_task_name": "cosmos_qa_no_prompt_text"
+    },
+    "hellaswag_Predict_ending_with_hint": {
+        "best_result": 305.5141296386719,
+        "best_code": 265,
+        "best_task_name": "cosmos_qa_no_prompt_text"
+    },
+    "hellaswag_if_begins_how_continues": {
+        "best_result": 161.63734436035156,
+        "best_code": 81,
+        "best_task_name": "dream_baseline"
+    },
+    "anli_r1_MNLI_crowdsource": {
+        "best_result": 460.00872802734375,
+        "best_code": 235,
+        "best_task_name": "duorc_ParaphraseRC_question_answering"
+    },
+    "anli_r1_should_assume": {
+        "best_result": 57.199623107910156,
+        "best_code": 2,
+        "best_task_name": "ag_news_classify_with_choices"
+    },
+    "anli_r1_does_it_follow_that": {
+        "best_result": 169.03216552734375,
+        "best_code": 68,
+        "best_task_name": "paws_labeled_final_Concatenation_no_label"
+    },
+    "anli_r1_GPT-3_style": {
+        "best_result": 277.99810791015625,
+        "best_code": 75,
+        "best_task_name": "paws_labeled_final_PAWS_ANLI_GPT3"
+    },
+    "anli_r1_based_on_the_previous_passage": {
+        "best_result": 169.03216552734375,
+        "best_code": 68,
+        "best_task_name": "paws_labeled_final_Concatenation_no_label"
+    },
+    "anli_r1_justified_in_saying": {
+        "best_result": 169.03216552734375,
+        "best_code": 68,
+        "best_task_name": "paws_labeled_final_Concatenation_no_label"
+    },
+    "anli_r1_take_the_following_as_truth": {
+        "best_result": 293.66485595703125,
+        "best_code": 75,
+        "best_task_name": "paws_labeled_final_PAWS_ANLI_GPT3"
+    },
+    "anli_r1_must_be_true": {
+        "best_result": 164.83729553222656,
+        "best_code": 8,
+        "best_task_name": "app_reviews_generate_review"
+    },
+    "anli_r1_can_we_infer": {
+        "best_result": 164.83729553222656,
+        "best_code": 8,
+        "best_task_name": "app_reviews_generate_review"
+    },
+    "anli_r1_guaranteed_possible_impossible": {
+        "best_result": 414.5434875488281,
+        "best_code": 235,
+        "best_task_name": "duorc_ParaphraseRC_question_answering"
+    },
+    "anli_r1_always_sometimes_never": {
+        "best_result": 352.72955322265625,
+        "best_code": 233,
+        "best_task_name": "duorc_ParaphraseRC_movie_director"
+    },
+    "anli_r1_does_this_imply": {
+        "best_result": 169.03216552734375,
+        "best_code": 68,
+        "best_task_name": "paws_labeled_final_Concatenation_no_label"
+    },
+    "anli_r1_consider_always_sometimes_never": {
+        "best_result": 352.72955322265625,
+        "best_code": 233,
+        "best_task_name": "duorc_ParaphraseRC_movie_director"
+    },
+    "anli_r1_claim_true_false_inconclusive": {
+        "best_result": 277.6778564453125,
+        "best_code": 75,
+        "best_task_name": "paws_labeled_final_PAWS_ANLI_GPT3"
+    },
+    "anli_r1_guaranteed_true": {
+        "best_result": 169.03216552734375,
+        "best_code": 68,
+        "best_task_name": "paws_labeled_final_Concatenation_no_label"
+    },
+    "anli_r2_MNLI_crowdsource": {
+        "best_result": 471.0937194824219,
+        "best_code": 235,
+        "best_task_name": "duorc_ParaphraseRC_question_answering"
+    },
+    "anli_r2_should_assume": {
+        "best_result": 56.53850555419922,
+        "best_code": 2,
+        "best_task_name": "ag_news_classify_with_choices"
+    },
+    "anli_r2_does_it_follow_that": {
+        "best_result": 169.49911499023438,
+        "best_code": 59,
+        "best_task_name": "amazon_polarity_Is_this_review_negative"
+    },
+    "anli_r2_GPT-3_style": {
+        "best_result": 271.32220458984375,
+        "best_code": 75,
+        "best_task_name": "paws_labeled_final_PAWS_ANLI_GPT3"
+    },
+    "anli_r2_based_on_the_previous_passage": {
+        "best_result": 169.49911499023438,
+        "best_code": 59,
+        "best_task_name": "amazon_polarity_Is_this_review_negative"
+    },
+    "anli_r2_justified_in_saying": {
+        "best_result": 169.49911499023438,
+        "best_code": 59,
+        "best_task_name": "amazon_polarity_Is_this_review_negative"
+    },
+    "anli_r2_take_the_following_as_truth": {
+        "best_result": 284.4188232421875,
+        "best_code": 75,
+        "best_task_name": "paws_labeled_final_PAWS_ANLI_GPT3"
+    },
+    "anli_r2_must_be_true": {
+        "best_result": 167.37188720703125,
+        "best_code": 68,
+        "best_task_name": "paws_labeled_final_Concatenation_no_label"
+    },
+    "anli_r2_can_we_infer": {
+        "best_result": 167.37188720703125,
+        "best_code": 68,
+        "best_task_name": "paws_labeled_final_Concatenation_no_label"
+    },
+    "anli_r2_guaranteed_possible_impossible": {
+        "best_result": 401.1552734375,
+        "best_code": 235,
+        "best_task_name": "duorc_ParaphraseRC_question_answering"
+    },
+    "anli_r2_always_sometimes_never": {
+        "best_result": 343.5111389160156,
+        "best_code": 233,
+        "best_task_name": "duorc_ParaphraseRC_movie_director"
+    },
+    "anli_r2_does_this_imply": {
+        "best_result": 169.49911499023438,
+        "best_code": 59,
+        "best_task_name": "amazon_polarity_Is_this_review_negative"
+    },
+    "anli_r2_consider_always_sometimes_never": {
+        "best_result": 343.5111389160156,
+        "best_code": 233,
+        "best_task_name": "duorc_ParaphraseRC_movie_director"
+    },
+    "anli_r2_claim_true_false_inconclusive": {
+        "best_result": 268.1126403808594,
+        "best_code": 75,
+        "best_task_name": "paws_labeled_final_PAWS_ANLI_GPT3"
+    },
+    "anli_r2_guaranteed_true": {
+        "best_result": 169.49911499023438,
+        "best_code": 59,
+        "best_task_name": "amazon_polarity_Is_this_review_negative"
+    },
+    "anli_r3_MNLI_crowdsource": {
+        "best_result": 471.7057189941406,
+        "best_code": 235,
+        "best_task_name": "duorc_ParaphraseRC_question_answering"
+    },
+    "anli_r3_should_assume": {
+        "best_result": 52.957767486572266,
+        "best_code": 0,
+        "best_task_name": "ag_news_classify_with_choices_question_first"
+    },
+    "anli_r3_does_it_follow_that": {
+        "best_result": 153.84677124023438,
+        "best_code": 68,
+        "best_task_name": "paws_labeled_final_Concatenation_no_label"
+    },
+    "anli_r3_GPT-3_style": {
+        "best_result": 243.28253173828125,
+        "best_code": 75,
+        "best_task_name": "paws_labeled_final_PAWS_ANLI_GPT3"
+    },
+    "anli_r3_based_on_the_previous_passage": {
+        "best_result": 153.84677124023438,
+        "best_code": 68,
+        "best_task_name": "paws_labeled_final_Concatenation_no_label"
+    },
+    "anli_r3_justified_in_saying": {
+        "best_result": 153.84677124023438,
+        "best_code": 68,
+        "best_task_name": "paws_labeled_final_Concatenation_no_label"
+    },
+    "anli_r3_take_the_following_as_truth": {
+        "best_result": 264.71575927734375,
+        "best_code": 75,
+        "best_task_name": "paws_labeled_final_PAWS_ANLI_GPT3"
+    },
+    "anli_r3_must_be_true": {
+        "best_result": 150.53892517089844,
+        "best_code": 68,
+        "best_task_name": "paws_labeled_final_Concatenation_no_label"
+    },
+    "anli_r3_can_we_infer": {
+        "best_result": 150.53892517089844,
+        "best_code": 68,
+        "best_task_name": "paws_labeled_final_Concatenation_no_label"
+    },
+    "anli_r3_guaranteed_possible_impossible": {
+        "best_result": 394.7489013671875,
+        "best_code": 235,
+        "best_task_name": "duorc_ParaphraseRC_question_answering"
+    },
+    "anli_r3_always_sometimes_never": {
+        "best_result": 363.7616882324219,
+        "best_code": 233,
+        "best_task_name": "duorc_ParaphraseRC_movie_director"
+    },
+    "anli_r3_does_this_imply": {
+        "best_result": 153.84677124023438,
+        "best_code": 68,
+        "best_task_name": "paws_labeled_final_Concatenation_no_label"
+    },
+    "anli_r3_consider_always_sometimes_never": {
+        "best_result": 363.7616882324219,
+        "best_code": 233,
+        "best_task_name": "duorc_ParaphraseRC_movie_director"
+    },
+    "anli_r3_claim_true_false_inconclusive": {
+        "best_result": 250.39715576171875,
+        "best_code": 75,
+        "best_task_name": "paws_labeled_final_PAWS_ANLI_GPT3"
+    },
+    "anli_r3_guaranteed_true": {
+        "best_result": 153.84677124023438,
+        "best_code": 68,
+        "best_task_name": "paws_labeled_final_Concatenation_no_label"
+    },
+    "winogrande_winogrande_xl_does_underscore_refer_to": {
+        "best_result": 22.330829620361328,
+        "best_code": 94,
+        "best_task_name": "trec_fine_grained_DESC"
+    },
+    "winogrande_winogrande_xl_stand_for": {
+        "best_result": 18.882225036621094,
+        "best_code": 134,
+        "best_task_name": "imdb_Writer_Expressed_Sentiment"
+    },
+    "winogrande_winogrande_xl_underscore_refer_to": {
+        "best_result": 22.330829620361328,
+        "best_code": 94,
+        "best_task_name": "trec_fine_grained_DESC"
+    },
+    "winogrande_winogrande_xl_fill_in_the_blank": {
+        "best_result": 27.176368713378906,
+        "best_code": 44,
+        "best_task_name": "glue_mrpc_equivalent"
+    },
+    "winogrande_winogrande_xl_Replace": {
+        "best_result": 28.4416561126709,
+        "best_code": 44,
+        "best_task_name": "glue_mrpc_equivalent"
+    }
+}

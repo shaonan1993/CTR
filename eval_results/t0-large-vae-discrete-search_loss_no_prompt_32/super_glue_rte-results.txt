@@ -1,0 +1,19 @@
+number of promtps: 10
+MNLI_crowdsource:0.7833935022354126
+guaranteed_true:0.7906137108802795
+can_we_infer:0.7906137108802795
+GPT-3_style:0.8194946050643921
+does_this_imply:0.7906137108802795
+should_assume:0.7833935022354126
+does_it_follow_that:0.7328519821166992
+based_on_the_previous_passage:0.7906137108802795
+justified_in_saying:0.7906137108802795
+must_be_true:0.7906137108802795
+task_name: super_glue_rte | num_subset: 10.
+q3: 0.7906137108802795.
+q1: 0.7851985543966293.
+inter-quartile range: 0.0054151564836502075.
+median: 0.7906137108802795.
+mean: 0.7862815856933594.
+***************** end ****************
+

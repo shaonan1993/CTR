@@ -1,0 +1,24 @@
+number of promtps: 15
+MNLI_crowdsource:0.3319999873638153
+should_assume:0.37700000405311584
+does_it_follow_that:0.36399999260902405
+GPT-3_style:0.36800000071525574
+based_on_the_previous_passage:0.36399999260902405
+justified_in_saying:0.36399999260902405
+take_the_following_as_truth:0.367000013589859
+must_be_true:0.3619999885559082
+can_we_infer:0.3619999885559082
+guaranteed_possible_impossible:0.3269999921321869
+always_sometimes_never:0.33799999952316284
+does_this_imply:0.36399999260902405
+consider_always_sometimes_never:0.33799999952316284
+claim_true_false_inconclusive:0.36800000071525574
+guaranteed_true:0.36399999260902405
+task_name: anli_r3 | num_subset: 15.
+q3: 0.36550000309944153.
+q1: 0.3499999940395355.
+inter-quartile range: 0.015500009059906006.
+median: 0.36399999260902405.
+mean: 0.3572666625181834.
+***************** end ****************
+

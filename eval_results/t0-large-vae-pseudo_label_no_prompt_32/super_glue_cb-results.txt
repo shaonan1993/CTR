@@ -1,0 +1,10 @@
+number of promtps: 1
+based_on_the_previous_passage:0.875
+task_name: super_glue_cb | num_subset: 1.
+q3: 0.875.
+q1: 0.875.
+inter-quartile range: 0.0.
+median: 0.875.
+mean: 0.875.
+***************** end ****************
+

@@ -1,0 +1,14 @@
+number of promtps: 5
+Answer_Given_options:0.9330000281333923
+Choose_Story_Ending:0.9330000281333923
+Movie_What_Happens_Next:0.9330000281333923
+Story_Continuation_and_Options:0.9330000281333923
+Novel_Correct_Ending:0.9330000281333923
+task_name: story_cloze_2016 | num_subset: 5.
+q3: 0.9330000281333923.
+q1: 0.9330000281333923.
+inter-quartile range: 0.0.
+median: 0.9330000281333923.
+mean: 0.9330000281333923.
+***************** end ****************
+

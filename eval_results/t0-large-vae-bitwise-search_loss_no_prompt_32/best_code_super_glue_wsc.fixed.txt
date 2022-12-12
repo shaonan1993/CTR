@@ -1,0 +1,122 @@
+{
+    "super_glue_wsc.fixed_does_the_pronoun_refer_to": {
+        "best_code": [
+            31,
+            96,
+            76,
+            15,
+            47,
+            79,
+            25,
+            1,
+            119,
+            100
+        ],
+        "best_loss": 20.486024856567383
+    },
+    "super_glue_wsc.fixed_by_p_they_mean": {
+        "best_code": [
+            10,
+            3,
+            91,
+            20,
+            8,
+            107,
+            9,
+            98,
+            12,
+            97
+        ],
+        "best_loss": 22.516674041748047
+    },
+    "super_glue_wsc.fixed_does_p_stand_for": {
+        "best_code": [
+            5,
+            48,
+            91,
+            111,
+            5,
+            5,
+            5,
+            59,
+            50,
+            19
+        ],
+        "best_loss": 20.775047302246094
+    },
+    "super_glue_wsc.fixed_GPT-3_Style": {
+        "best_code": [
+            31,
+            68,
+            76,
+            53,
+            47,
+            96,
+            40,
+            124,
+            59,
+            97
+        ],
+        "best_loss": 21.384429931640625
+    },
+    "super_glue_wsc.fixed_replaced_with": {
+        "best_code": [
+            23,
+            27,
+            5,
+            80,
+            5,
+            66,
+            40,
+            59,
+            50,
+            19
+        ],
+        "best_loss": 21.256580352783203
+    },
+    "super_glue_wsc.fixed_p_is_are_r": {
+        "best_code": [
+            31,
+            5,
+            127,
+            71,
+            47,
+            73,
+            32,
+            115,
+            5,
+            100
+        ],
+        "best_loss": 20.18985366821289
+    },
+    "super_glue_wsc.fixed_the_pronoun_refers_to": {
+        "best_code": [
+            23,
+            49,
+            127,
+            10,
+            47,
+            101,
+            35,
+            1,
+            6,
+            19
+        ],
+        "best_loss": 20.96798324584961
+    },
+    "super_glue_wsc.fixed_Who_or_what_is_are": {
+        "best_code": [
+            31,
+            3,
+            76,
+            20,
+            2,
+            22,
+            32,
+            124,
+            50,
+            97
+        ],
+        "best_loss": 21.828876495361328
+    }
+}

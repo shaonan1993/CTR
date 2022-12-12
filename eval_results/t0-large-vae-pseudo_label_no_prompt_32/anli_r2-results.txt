@@ -1,0 +1,10 @@
+number of promtps: 1
+does_it_follow_that:0.3440000116825104
+task_name: anli_r2 | num_subset: 1.
+q3: 0.3440000116825104.
+q1: 0.3440000116825104.
+inter-quartile range: 0.0.
+median: 0.3440000116825104.
+mean: 0.3440000116825104.
+***************** end ****************
+

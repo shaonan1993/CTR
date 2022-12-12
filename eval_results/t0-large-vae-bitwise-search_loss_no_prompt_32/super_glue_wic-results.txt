@@ -1,0 +1,10 @@
+number of promtps: 1
+question-context-meaning:0.5658307075500488
+task_name: super_glue_wic | num_subset: 1.
+q3: 0.5658307075500488.
+q1: 0.5658307075500488.
+inter-quartile range: 0.0.
+median: 0.5658307075500488.
+mean: 0.5658307075500488.
+***************** end ****************
+

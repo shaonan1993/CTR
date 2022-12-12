@@ -1,0 +1,24 @@
+number of promtps: 15
+can_we_infer:0.75
+based_on_the_previous_passage:0.875
+claim_true_false_inconclusive:0.7678571343421936
+does_it_follow_that:0.7142857313156128
+justified_in_saying:0.75
+always_sometimes_never:0.0892857164144516
+GPT-3_style:0.7857142686843872
+consider_always_sometimes_never:0.125
+guaranteed_true:0.75
+must_be_true:0.75
+guaranteed_possible_impossible:0.1071428582072258
+does_this_imply:0.75
+MNLI_crowdsource:0.25
+should_assume:0.7678571343421936
+take_the_following_as_truth:0.875
+task_name: super_glue_cb | num_subset: 15.
+q3: 0.7678571343421936.
+q1: 0.4821428656578064.
+inter-quartile range: 0.2857142686843872.
+median: 0.75.
+mean: 0.6071428562204043.
+***************** end ****************
+

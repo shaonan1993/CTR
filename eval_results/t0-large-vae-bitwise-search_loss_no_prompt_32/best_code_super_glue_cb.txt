@@ -1,0 +1,227 @@
+{
+    "super_glue_cb_can_we_infer": {
+        "best_code": [
+            5,
+            123,
+            91,
+            71,
+            2,
+            101,
+            39,
+            124,
+            13,
+            97
+        ],
+        "best_loss": 19.735065460205078
+    },
+    "super_glue_cb_based_on_the_previous_passage": {
+        "best_code": [
+            23,
+            90,
+            38,
+            15,
+            2,
+            79,
+            39,
+            13,
+            50,
+            97
+        ],
+        "best_loss": 20.43436622619629
+    },
+    "super_glue_cb_claim_true_false_inconclusive": {
+        "best_code": [
+            5,
+            123,
+            91,
+            80,
+            5,
+            121,
+            39,
+            124,
+            12,
+            97
+        ],
+        "best_loss": 22.482471466064453
+    },
+    "super_glue_cb_does_it_follow_that": {
+        "best_code": [
+            112,
+            70,
+            69,
+            71,
+            2,
+            121,
+            39,
+            13,
+            59,
+            97
+        ],
+        "best_loss": 24.992305755615234
+    },
+    "super_glue_cb_justified_in_saying": {
+        "best_code": [
+            23,
+            93,
+            91,
+            71,
+            2,
+            101,
+            39,
+            13,
+            17,
+            97
+        ],
+        "best_loss": 19.662670135498047
+    },
+    "super_glue_cb_always_sometimes_never": {
+        "best_code": [
+            23,
+            48,
+            76,
+            5,
+            2,
+            30,
+            39,
+            59,
+            120,
+            97
+        ],
+        "best_loss": 66.21626281738281
+    },
+    "super_glue_cb_GPT-3_style": {
+        "best_code": [
+            23,
+            123,
+            0,
+            15,
+            47,
+            73,
+            25,
+            103,
+            120,
+            78
+        ],
+        "best_loss": 20.425750732421875
+    },
+    "super_glue_cb_consider_always_sometimes_never": {
+        "best_code": [
+            23,
+            49,
+            38,
+            71,
+            2,
+            116,
+            39,
+            5,
+            119,
+            97
+        ],
+        "best_loss": 65.39054870605469
+    },
+    "super_glue_cb_guaranteed_true": {
+        "best_code": [
+            112,
+            123,
+            91,
+            71,
+            2,
+            72,
+            39,
+            124,
+            13,
+            97
+        ],
+        "best_loss": 19.498382568359375
+    },
+    "super_glue_cb_must_be_true": {
+        "best_code": [
+            23,
+            50,
+            91,
+            71,
+            2,
+            101,
+            39,
+            13,
+            109,
+            97
+        ],
+        "best_loss": 20.164691925048828
+    },
+    "super_glue_cb_guaranteed_possible_impossible": {
+        "best_code": [
+            23,
+            96,
+            21,
+            113,
+            71,
+            10,
+            39,
+            5,
+            84,
+            52
+        ],
+        "best_loss": 121.54961395263672
+    },
+    "super_glue_cb_does_this_imply": {
+        "best_code": [
+            10,
+            68,
+            38,
+            126,
+            2,
+            121,
+            39,
+            124,
+            13,
+            97
+        ],
+        "best_loss": 20.595653533935547
+    },
+    "super_glue_cb_MNLI_crowdsource": {
+        "best_code": [
+            61,
+            49,
+            64,
+            20,
+            2,
+            36,
+            39,
+            41,
+            17,
+            97
+        ],
+        "best_loss": 94.97310638427734
+    },
+    "super_glue_cb_should_assume": {
+        "best_code": [
+            23,
+            70,
+            91,
+            71,
+            71,
+            101,
+            39,
+            124,
+            34,
+            44
+        ],
+        "best_loss": 19.690242767333984
+    },
+    "super_glue_cb_take_the_following_as_truth": {
+        "best_code": [
+            23,
+            123,
+            91,
+            15,
+            2,
+            73,
+            39,
+            103,
+            13,
+            97
+        ],
+        "best_loss": 22.73081398010254
+    }
+}

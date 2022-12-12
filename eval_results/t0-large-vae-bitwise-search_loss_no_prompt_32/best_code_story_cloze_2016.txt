@@ -1,0 +1,77 @@
+{
+    "story_cloze_2016_Answer_Given_options": {
+        "best_code": [
+            23,
+            93,
+            69,
+            113,
+            47,
+            79,
+            35,
+            1,
+            120,
+            63
+        ],
+        "best_loss": 0.05939287692308426
+    },
+    "story_cloze_2016_Choose_Story_Ending": {
+        "best_code": [
+            82,
+            93,
+            69,
+            5,
+            8,
+            121,
+            18,
+            103,
+            120,
+            78
+        ],
+        "best_loss": 0.09779320657253265
+    },
+    "story_cloze_2016_Movie_What_Happens_Next": {
+        "best_code": [
+            82,
+            93,
+            69,
+            71,
+            8,
+            5,
+            35,
+            103,
+            120,
+            44
+        ],
+        "best_loss": 0.09244382381439209
+    },
+    "story_cloze_2016_Story_Continuation_and_Options": {
+        "best_code": [
+            23,
+            93,
+            69,
+            113,
+            8,
+            107,
+            18,
+            103,
+            120,
+            19
+        ],
+        "best_loss": 0.06258174777030945
+    },
+    "story_cloze_2016_Novel_Correct_Ending": {
+        "best_code": [
+            82,
+            93,
+            69,
+            71,
+            8,
+            5,
+            35,
+            103,
+            120,
+            44
+        ],
+        "best_loss": 0.09244382381439209
+    }
+}

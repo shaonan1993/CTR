@@ -1,0 +1,227 @@
+{
+    "anli_r2_MNLI_crowdsource": {
+        "best_code": [
+            65,
+            49,
+            69,
+            15,
+            5,
+            79,
+            25,
+            1,
+            59,
+            100
+        ],
+        "best_loss": 392.609375
+    },
+    "anli_r2_should_assume": {
+        "best_code": [
+            61,
+            90,
+            58,
+            53,
+            2,
+            101,
+            39,
+            124,
+            50,
+            51
+        ],
+        "best_loss": 44.99122619628906
+    },
+    "anli_r2_does_it_follow_that": {
+        "best_code": [
+            112,
+            77,
+            4,
+            20,
+            82,
+            72,
+            18,
+            124,
+            13,
+            97
+        ],
+        "best_loss": 72.76203918457031
+    },
+    "anli_r2_GPT-3_style": {
+        "best_code": [
+            17,
+            5,
+            127,
+            13,
+            77,
+            79,
+            35,
+            59,
+            5,
+            78
+        ],
+        "best_loss": 130.13494873046875
+    },
+    "anli_r2_based_on_the_previous_passage": {
+        "best_code": [
+            54,
+            90,
+            69,
+            13,
+            77,
+            10,
+            18,
+            94,
+            119,
+            97
+        ],
+        "best_loss": 73.8458480834961
+    },
+    "anli_r2_justified_in_saying": {
+        "best_code": [
+            65,
+            27,
+            76,
+            113,
+            8,
+            5,
+            35,
+            13,
+            13,
+            97
+        ],
+        "best_loss": 72.35600280761719
+    },
+    "anli_r2_take_the_following_as_truth": {
+        "best_code": [
+            5,
+            67,
+            127,
+            5,
+            71,
+            79,
+            40,
+            94,
+            84,
+            100
+        ],
+        "best_loss": 160.35223388671875
+    },
+    "anli_r2_must_be_true": {
+        "best_code": [
+            17,
+            123,
+            38,
+            5,
+            9,
+            5,
+            18,
+            59,
+            40,
+            37
+        ],
+        "best_loss": 99.8129653930664
+    },
+    "anli_r2_can_we_infer": {
+        "best_code": [
+            99,
+            49,
+            69,
+            13,
+            8,
+            5,
+            98,
+            59,
+            34,
+            27
+        ],
+        "best_loss": 89.74088287353516
+    },
+    "anli_r2_guaranteed_possible_impossible": {
+        "best_code": [
+            99,
+            49,
+            69,
+            15,
+            77,
+            79,
+            25,
+            5,
+            13,
+            97
+        ],
+        "best_loss": 284.6025390625
+    },
+    "anli_r2_always_sometimes_never": {
+        "best_code": [
+            23,
+            27,
+            127,
+            15,
+            26,
+            66,
+            98,
+            59,
+            104,
+            5
+        ],
+        "best_loss": 259.4424133300781
+    },
+    "anli_r2_does_this_imply": {
+        "best_code": [
+            31,
+            70,
+            4,
+            113,
+            8,
+            22,
+            38,
+            124,
+            13,
+            122
+        ],
+        "best_loss": 71.31451416015625
+    },
+    "anli_r2_consider_always_sometimes_never": {
+        "best_code": [
+            23,
+            49,
+            127,
+            15,
+            26,
+            121,
+            25,
+            66,
+            104,
+            37
+        ],
+        "best_loss": 282.95684814453125
+    },
+    "anli_r2_claim_true_false_inconclusive": {
+        "best_code": [
+            111,
+            67,
+            127,
+            5,
+            71,
+            72,
+            40,
+            94,
+            120,
+            100
+        ],
+        "best_loss": 158.84619140625
+    },
+    "anli_r2_guaranteed_true": {
+        "best_code": [
+            31,
+            90,
+            76,
+            29,
+            8,
+            30,
+            18,
+            124,
+            13,
+            97
+        ],
+        "best_loss": 76.72361755371094
+    }
+}

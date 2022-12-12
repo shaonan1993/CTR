@@ -1,0 +1,21 @@
+number of promtps: 12
+exercise:0.8500000238418579
+…What_could_happen_next,_C1_or_C2?:0.7708333134651184
+i_am_hesitating:0.8999999761581421
+plausible_alternatives:0.8799999952316284
+C1_or_C2?_premise,_so_because…:0.8500000238418579
+…As_a_result,_C1_or_C2?:0.8125
+best_option:0.8100000023841858
+…which_may_be_caused_by:0.8269230723381042
+more_likely:0.8799999952316284
+cause_effect:0.8899999856948853
+…why?_C1_or_C2:0.8461538553237915
+choose:0.8600000143051147
+task_name: super_glue_copa | num_subset: 12.
+q3: 0.8799999952316284.
+q1: 0.8233173042535782.
+inter-quartile range: 0.05668269097805023.
+median: 0.8500000238418579.
+mean: 0.8480341881513596.
+***************** end ****************
+

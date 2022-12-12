@@ -1,0 +1,10 @@
+number of promtps: 1
+does_underscore_refer_to:0.49399998784065247
+task_name: winogrande_winogrande_xl | num_subset: 1.
+q3: 0.49399998784065247.
+q1: 0.49399998784065247.
+inter-quartile range: 0.0.
+median: 0.49399998784065247.
+mean: 0.49399998784065247.
+***************** end ****************
+

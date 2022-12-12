@@ -1,0 +1,19 @@
+number of promtps: 10
+question-context-meaning-with-label:0.5109717845916748
+question-context-meaning:0.5203761458396912
+grammar_homework:0.5203761458396912
+affirmation_true_or_false:0.57523512840271
+GPT-3-prompt:0.5532915592193604
+same_sense:0.5438871383666992
+question-context:0.5078369975090027
+GPT-3-prompt-with-label:0.5156739950180054
+polysemous:0.517241358757019
+similar-sense:0.4937303960323334
+task_name: super_glue_wic | num_subset: 10.
+q3: 0.5380093902349472.
+q1: 0.5121473371982574.
+inter-quartile range: 0.02586205303668976.
+median: 0.5188087522983551.
+mean: 0.5258620649576187.
+***************** end ****************
+

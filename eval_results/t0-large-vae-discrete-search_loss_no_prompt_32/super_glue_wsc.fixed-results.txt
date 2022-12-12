@@ -1,0 +1,19 @@
+number of promtps: 10
+does_the_pronoun_refer_to:0.6704545617103577
+by_p_they_mean:0.6136363744735718
+in_other_words:0.6224489808082581
+I_think_they_mean:0.6224489808082581
+does_p_stand_for:0.6477272510528564
+GPT-3_Style:0.6931818127632141
+replaced_with:0.5795454382896423
+p_is_are_r:0.6477272510528564
+the_pronoun_refers_to:0.5113636255264282
+Who_or_what_is_are:0.625
+task_name: super_glue_wsc.fixed | num_subset: 10.
+q3: 0.6477272510528564.
+q1: 0.6158395260572433.
+inter-quartile range: 0.0318877249956131.
+median: 0.623724490404129.
+mean: 0.6233534276485443.
+***************** end ****************
+

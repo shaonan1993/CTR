@@ -1,0 +1,10 @@
+number of promtps: 1
+Answer_Given_options:0.9200000166893005
+task_name: story_cloze_2016 | num_subset: 1.
+q3: 0.9200000166893005.
+q1: 0.9200000166893005.
+inter-quartile range: 0.0.
+median: 0.9200000166893005.
+mean: 0.9200000166893005.
+***************** end ****************
+

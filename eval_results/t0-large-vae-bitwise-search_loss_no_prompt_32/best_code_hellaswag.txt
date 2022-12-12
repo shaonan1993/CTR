@@ -1,0 +1,62 @@
+{
+    "hellaswag_complete_first_then": {
+        "best_code": [
+            23,
+            5,
+            69,
+            111,
+            27,
+            57,
+            25,
+            103,
+            120,
+            11
+        ],
+        "best_loss": 244.02972412109375
+    },
+    "hellaswag_Randomized_prompts_template": {
+        "best_code": [
+            54,
+            5,
+            69,
+            111,
+            2,
+            79,
+            25,
+            103,
+            120,
+            11
+        ],
+        "best_loss": 260.86676025390625
+    },
+    "hellaswag_Predict_ending_with_hint": {
+        "best_code": [
+            54,
+            67,
+            69,
+            111,
+            2,
+            121,
+            25,
+            98,
+            120,
+            100
+        ],
+        "best_loss": 261.93597412109375
+    },
+    "hellaswag_if_begins_how_continues": {
+        "best_code": [
+            23,
+            108,
+            69,
+            113,
+            71,
+            79,
+            35,
+            1,
+            12,
+            19
+        ],
+        "best_loss": 57.53559112548828
+    }
+}

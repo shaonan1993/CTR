@@ -1,0 +1,8 @@
+{
+    "hellaswag": {
+        "best_template_id": "00caa8cb-7f67-43bc-9e90-fc1d5d329432",
+        "best_task_id": 166,
+        "best_task_name": "wiki_qa_Generate_Question_from_Topic",
+        "best_code_prompt_pred_acc": 0.3235294117647059
+    }
+}

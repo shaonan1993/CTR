@@ -1,0 +1,10 @@
+number of promtps: 1
+GPT-3_style:0.8122743964195251
+task_name: super_glue_rte | num_subset: 1.
+q3: 0.8122743964195251.
+q1: 0.8122743964195251.
+inter-quartile range: 0.0.
+median: 0.8122743964195251.
+mean: 0.8122743964195251.
+***************** end ****************
+

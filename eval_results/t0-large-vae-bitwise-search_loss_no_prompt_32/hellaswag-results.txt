@@ -1,0 +1,10 @@
+number of promtps: 1
+if_begins_how_continues:0.34893447160720825
+task_name: hellaswag | num_subset: 1.
+q3: 0.34893447160720825.
+q1: 0.34893447160720825.
+inter-quartile range: 0.0.
+median: 0.34893447160720825.
+mean: 0.34893447160720825.
+***************** end ****************
+

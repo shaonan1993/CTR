@@ -1,0 +1,77 @@
+{
+    "winogrande_winogrande_xl_does_underscore_refer_to": {
+        "best_code": [
+            31,
+            27,
+            10,
+            15,
+            2,
+            79,
+            5,
+            65,
+            120,
+            37
+        ],
+        "best_loss": 19.391502380371094
+    },
+    "winogrande_winogrande_xl_stand_for": {
+        "best_code": [
+            23,
+            3,
+            4,
+            71,
+            2,
+            79,
+            35,
+            103,
+            119,
+            51
+        ],
+        "best_loss": 15.539901733398438
+    },
+    "winogrande_winogrande_xl_underscore_refer_to": {
+        "best_code": [
+            112,
+            3,
+            4,
+            71,
+            2,
+            79,
+            35,
+            59,
+            59,
+            51
+        ],
+        "best_loss": 17.41339111328125
+    },
+    "winogrande_winogrande_xl_fill_in_the_blank": {
+        "best_code": [
+            61,
+            123,
+            110,
+            15,
+            2,
+            72,
+            43,
+            1,
+            119,
+            52
+        ],
+        "best_loss": 20.33702850341797
+    },
+    "winogrande_winogrande_xl_Replace": {
+        "best_code": [
+            54,
+            123,
+            64,
+            15,
+            2,
+            79,
+            43,
+            1,
+            119,
+            51
+        ],
+        "best_loss": 23.259117126464844
+    }
+}

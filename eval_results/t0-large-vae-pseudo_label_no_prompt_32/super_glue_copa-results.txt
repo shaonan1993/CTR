@@ -1,0 +1,10 @@
+number of promtps: 1
+exercise:0.9200000166893005
+task_name: super_glue_copa | num_subset: 1.
+q3: 0.9200000166893005.
+q1: 0.9200000166893005.
+inter-quartile range: 0.0.
+median: 0.9200000166893005.
+mean: 0.9200000166893005.
+***************** end ****************
+

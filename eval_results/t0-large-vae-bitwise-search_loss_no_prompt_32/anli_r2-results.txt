@@ -1,0 +1,10 @@
+number of promtps: 1
+should_assume:0.32899999618530273
+task_name: anli_r2 | num_subset: 1.
+q3: 0.32899999618530273.
+q1: 0.32899999618530273.
+inter-quartile range: 0.0.
+median: 0.32899999618530273.
+mean: 0.32899999618530273.
+***************** end ****************
+
