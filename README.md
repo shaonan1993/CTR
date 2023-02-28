@@ -80,7 +80,7 @@ If you find this resource useful, please cite the paper introducing CTR:
 @inproceedings{
 shao2023compositional,
 title={Compositional Task Representations for Large Language Models},
-author={NAN SHAO and Zefan Cai and Hanwei xu and Chonghua Liao and Yanan Zheng and Zhilin Yang},
+author={Nan Shao and Zefan Cai and Hanwei xu and Chonghua Liao and Yanan Zheng and Zhilin Yang},
 booktitle={The Eleventh International Conference on Learning Representations },
 year={2023},
 url={https://openreview.net/forum?id=6axIMJA7ME3}
